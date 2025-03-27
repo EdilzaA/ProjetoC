@@ -3,7 +3,7 @@
 int main(){
     
     int carta = 1;
-    char estado1 = 'C';
+    char estado1 = 'c';
     char codigo1 [10] = "F01";
     char cidade1 [50] = "Fortaleza";
     int populacao1 = 15262000;
