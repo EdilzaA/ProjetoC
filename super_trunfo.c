@@ -12,6 +12,8 @@ int main(){
     int numeroPontosTuristicos1 ; 
 
 
+    printf("Desafio das Cartas!\n");
+    
     printf("Carta: \n");
     scanf("%d", &carta);
 
