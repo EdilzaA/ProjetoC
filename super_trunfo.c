@@ -2,21 +2,21 @@
 
 int main(){
     
-    int carta = 1;
-    char estado1 = 'c';
-    char codigo1 [10] = "F01";
-    char cidade1 [50] = "Fortaleza";
-    int populacao1 = 15262000;
-    float area1 = 1523.12;
-    float pib1 = 799.38;
-    int numeroPontosTuristicos1 = 60; 
+    int carta;
+    char estado1 [10] ;
+    char codigo1 [10] ;
+    char cidade1 [50] ;
+    int populacao1 ;
+    float area1 ;
+    float pib1 ;
+    int numeroPontosTuristicos1 ; 
 
 
     printf("Carta: \n");
     scanf("%d", &carta);
 
     printf("Estado: \n");
-    scanf("%c", &estado1);
+    scanf("%s", estado1);
 
     printf("Código: \n");
     scanf("%s", &codigo1);
@@ -37,7 +37,7 @@ int main(){
     scanf("%d", &numeroPontosTuristicos1);
     
     printf("Carta: %d\n", carta);
-    printf("Estado: %c\n", estado1);
+    printf("Estado: %s\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
