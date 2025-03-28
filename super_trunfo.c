@@ -13,6 +13,7 @@ int main(){
 
 
     printf("Desafio das Cartas!\n");
+    printf("Novo commit\n");
     
     printf("Carta: \n");
     scanf("%d", &carta);
